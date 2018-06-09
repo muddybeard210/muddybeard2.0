@@ -1,0 +1,14 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/images/8bit-Landscape.jpg");
+  background-size: cover;
+  transition: background-position-x 300s linear;
+}
+
+.App.mounted {
+  background-position-x: -10000px;
+}
